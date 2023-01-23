@@ -71,6 +71,11 @@ Before you begin, you will need the following:
 	```
 	git remote set-url origin SSH_URL
 	```
+    Check the setting:
+    ```
+    git remote -v
+    git remote get-url --all origin
+    ```
 9. Upload changes to GitHub:
 	Change file README.md
 	Stage the changes
